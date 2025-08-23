@@ -1,0 +1,6 @@
+/home/felix/c_lang_tests/set_jmp_tst.c::WARNING::DONT JUMP PAST THE FREE	CT-1-349ab8a8
+/home/felix/c_lang_tests/pointers.c::NOTE::testing codetags	CT-1-852592b3
+/home/felix/c_lang_tests/pointers.c::TODO::testing.	CT-1-40ba4d33
+/home/felix/c_lang_tests/pointers.c::FIX::....	CT-2-6a58eca7
+/home/felix/c_lang_tests/string_ops.c::TODO::seperate into other files	CT-3-cbe0d0eb
+/home/felix/c_lang_tests/string_ops.c::WARN::codetags is bnroken	CT-4-ce8757df
