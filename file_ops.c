@@ -47,19 +47,16 @@ int main(int argc, char **argv) {
     while (fgetc(f) != '|') {
         fseek(f, old_pos++, SEEK_SET);
         char nc = fgetc(f);
-        printf("%c", nc);
         snprintf(tfl+strlen(tfl), strlen(&nc), "%c", nc);
     }
 
     fclose(f);
 
-    int tfli = (long)(tfl);
+    int tfli = atoi(tfl);
+    int tfl2 = tfli + 2;
 
-    printf("  %i\n", tfli);
- 
-    char buffer[1000] = "";
-    //snprintf(buffer+strlen(buffer), strlen(tfl)+1, "%s", tfl);
-    printf("%s\n", buffer);
+    
+    printf("or: %i n: %i\n", tfli, tfl2);
     return 0;
 }
 
