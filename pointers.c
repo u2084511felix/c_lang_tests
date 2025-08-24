@@ -30,9 +30,6 @@ struct shape3dp {
 };
 
 
-
-
-
 int get_vol(int len, int width, int height) {
     int surface_area = len * width;
     int vol = surface_area * height;
@@ -123,7 +120,6 @@ int main() {
     cube.vol = square.w * square.l * cube.h;
 
     print_vals(square.l, square.w, cube.h, cube.vol);
-
 
     // Struct containing pointers
     struct shape2dp psquare;

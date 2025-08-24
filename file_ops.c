@@ -15,7 +15,7 @@ int main(int argc, char **argv) {
   //  FILE* f = fopen("/home/felix/.cache/codetags/logs/test.log", "a");
 
 
-    //NOTE: Test writing to a file.
+    //NOTE: Test writing to a file. [CT-5-736cc024]
     // char r[100] = "hello world\n";
     // char debug[100] = "TEST LOG LINE APPEND : SUCCESS ";
     // snprintf(debug+strlen(debug), strlen(r)+1, "%s\n", r);
@@ -23,7 +23,7 @@ int main(int argc, char **argv) {
     // fclose(f);
     // system("cat /home/felix/.cache/codetags/test.log");
 
-    //NOTE: Testing reading from log file to string.
+    //NOTE: Testing reading from log file to string. [CT-6-b3aee440]
     
 
 

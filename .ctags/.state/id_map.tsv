@@ -4,3 +4,13 @@
 /home/felix/c_lang_tests/pointers.c::FIX::....	CT-2-6a58eca7
 /home/felix/c_lang_tests/string_ops.c::TODO::seperate into other files	CT-3-cbe0d0eb
 /home/felix/c_lang_tests/string_ops.c::WARN::codetags is bnroken	CT-4-ce8757df
+/home/felix/c_lang_tests/file_ops.c::NOTE::Test writing to a file.	CT-5-736cc024
+/home/felix/c_lang_tests/file_ops.c::NOTE::Testing reading from log file to string.	CT-6-b3aee440
+/home/felix/c_lang_tests/logger_test.c::NOTE::Extended in prod.	CT-7-e2642a81
+/home/felix/c_lang_tests/set_jmp_tst.c::WARN::testing codetags	CT-8-5fef8e98
+/home/felix/c_lang_tests/set_jmp_tst.c::WARN::test test	CT-9-674f7f15
+/home/felix/c_lang_tests/set_jmp_tst.c::WARN::test ignore	CT-10-f747baaa
+/home/felix/c_lang_tests/set_jmp_tst.c::WARN::test 2ignore	CT-11-7e7fd303
+/home/felix/c_lang_tests/ct.c::WARN::test	CT-12-24572e83
+/home/felix/c_lang_tests/ct.c::WARN::test2	CT-13-3a8367d8
+/home/felix/c_lang_tests/ct.c::WARN::test3	CT-14-9de48e8e
